@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+}
+.login-member, .login-admin{
+    border: 1px solid black;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    line-height: 90px;
+}
+.login{
+    display: flex;
+    position: relative;
+}
+.login-member:hover, .login-admin:hover{
+    background: gray;
+    color: white;
+}
